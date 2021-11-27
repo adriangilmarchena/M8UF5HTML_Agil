@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari 1 d'enregistrament</title> 
+</head>
+<body>
+    <h1>Formulari bàsic de registre</h1>
+    <hr>
+    
+    <form method="get">
+        <fieldset>
+       Nom:<input maxlength="50" type="text" name="nombre">
+       Cognom:<input maxlength="50" type="text" name="cognom">
+       <p>Sexe:<input type="radio" name="home" value="h">Home
+       <input type="radio" name="dona" value="d">Dona</p>
+       <input checked="true" type="checkbox"> Vull rebre informació sobre novetats i ofertes
+       <p><input type="checkbox">Declaro   haver   llegit   i   acceptar   les
+        condicions generals del programa i la normativa sobre protecció de dades indicada
+        al RGPD</p>
+        <p>Població <select>
+            <option value="1">Arbúcies</option>
+            <option value="2">Badalona</option>
+            <option value="3">Barcelona</option>
+            <option value="4">Girona</option>
+            <option value="5">Vilasar de Mar</option>
+        </select> 
+        </p>
+        Descripció
+       <p><textarea rows="10" cols="30"></textarea></p>
+        <input type="submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
